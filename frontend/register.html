@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/x-icon"
+        href="C:\Users\nagar\Documents\GRADIOUS RESOURCES\Coffeee\frontend\img\favicon.jpg">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="./img/coffee_bean.png" alt="Coffee Icon">
+        <h1><span class="highlight">CoffeeeNM</span></h1>
+        <form action="/l" method="POST">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="user" placeholder="Username" required>
+            </div>
+            <input type="email" name="email" placeholder="Email address" required>
+            <div class="form-row">
+                <input type="text" name="city" placeholder="City" required>
+                <input type="tel" name="mobile" placeholder="Mobile" required>
+            </div>
+            <div class="form-row">
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="password1" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="./login.html">Login</a></p>
+    </div>
+    <script src="./script/register.js"></script>
+</body>
+
+</html>

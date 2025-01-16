@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            color: white;
+        }
+
+        .error-container {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .error-code {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #f9c74f;
+        }
+
+        .error-message {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .error-description {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-container">
+        <div class="error-code">403</div>
+        <div class="error-message">Access Denied</div>
+        <div class="error-description">This is the server page. You cannot access it.<br>Please contact your
+            administrator for more details.</div>
+    </div>
+</body>
+
+</html>

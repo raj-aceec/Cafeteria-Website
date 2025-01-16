@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CoffeeeNM</title>
+    <link rel="icon" type="image/x-icon"
+        href="C:\Users\nagar\Documents\GRADIOUS RESOURCES\Coffeee\frontend\img\favicon.jpg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #4b3832, #e1d8d4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4b3832;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        .container {
+            text-align: center;
+            background: #e1d8d4;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #4b3832;
+        }
+
+        .highlight {
+            font-family: 'Lucida Handwriting', cursive;
+            color: #6f4e37;
+            font-weight: bold;
+            text-shadow: 1px 1px #f4a460;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #6f4e37;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+            background-color: #4b3832;
+            padding: 12px 25px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #675b57;
+            transform: scale(1.05);
+        }
+
+        .btn:first-of-type {
+            background-color: #675b57;
+        }
+
+        .btn:first-of-type:hover {
+            background-color: #4b3832;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/coffee_bean.png" alt="Coffee Icon">
+        <h1>Welcome to <span class="highlight">CoffeeeNM</span></h1>
+        <p>Order Your Favorite Coffee Now!</p>
+        <div class="btn-group">
+            <a href="./register.html" class="btn">New user? Register here</a>
+            <a href="./login.html" class="btn">Existing user? Login</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4b3832, #e1d8d4);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.highlight {
+    font-family: 'Lucida Handwriting', cursive;
+    color: #6f4e37;
+    font-weight: bold;
+    text-shadow: 1px 1px #f4a460;
+}
+
+.login-container {
+    background: #e1d8d4;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.login-container img {
+    width: 100px;
+    height: auto;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d4c2a8;
+    border-radius: 5px;
+    width: 92.3%;
+    margin: 5px;
+}
+
+.login-container input:focus {
+    outline: none;
+    border-color: #6f4e37;
+    box-shadow: 0 0 4px rgba(111, 78, 55, 0.5);
+}
+
+.login-container button {
+    color: white;
+    background-color: #4b3832;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.login-container button:hover {
+    background-color: #8a634b;
+}
+
+.login-container p {
+    margin-top: 15px;
+    color: #6f4e37;
+    font-size: 0.9rem;
+}
+
+.login-container p a {
+    color: #6f4e37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

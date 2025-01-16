@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeeNM Dashboard</title>
+    <link rel="icon" type="image/x-icon"
+        href="C:\Users\nagar\Documents\GRADIOUS RESOURCES\Coffeee\frontend\img\favicon.jpg">
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="brand">
+            <span>CoffeeeNM</span>
+        </div>
+        <img src="C:\Users\nagar\Documents\GRADIOUS RESOURCES\Coffeee\frontend\img\favicon.jpg" alt="CoffeeeNM Logo">
+        <div class="nav-links">
+            <a href="#" onClick="showSection('home')">Home</a>
+            <a href="#" onClick="showSection('menu')">Menu</a>
+            <a href="#" onClick="showSection('orders')">Orders</a>
+            <a href="#" onClick="logOut()">Logout</a>
+        </div>
+    </div>
+
+    <div class="section-container">
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="contain">
+                    <h1>Welcome to <span class="highlight">CoffeeeNM</span></h1>
+                    <p>Order Your Favorite Coffee Now!</p>
+                    <br>
+                    <a href="#" onClick="showSection('menu')" class="btn">Click here to Order</a>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="section">
+            <div class="container1">
+                <div class="menu">
+                    <div class="menu_box">
+                        <div class="menu_card">
+
+                            <div class="menu_image">
+                                <img src="./img/cafe latte.jpg">
+                            </div>
+                            <div class="menu_info">
+                                <h2>Cafe Latte</h2>
+                                <p>
+                                    A café latte is a coffee drink made with espresso and steamed milk, topped with a
+                                    little
+                                    foam. It has a creamy and mild flavor.It has a rich flavour.
+                                </p>
+                                <h3>Price: ₹250/-</h3>
+                                <button data="Cafe Latte" id="openFormBtn">Order Now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="menu_card">
+
+                            <div class="menu_image">
+                                <img src="./img/cappucino.jpg">
+                            </div>
+                            <div class="menu_info">
+                                <h2>Cappucino</h2>
+                                <p>
+                                    A cappuccino is a coffee drink made with equal parts espresso, steamed milk, and
+                                    milk
+                                    foam. It has a rich, frothy texture and a stronger coffee flavor than a latte.
+                                </p>
+                                <h3>Price: ₹350/-</h3>
+                                <button data="Cappucino" id="openFormBtn">Order Now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="menu_card">
+
+                            <div class="menu_image">
+                                <img src="./img/espresso.jpg">
+                            </div>
+                            <div class="menu_info">
+                                <h2>Espresso</h2>
+                                <p>
+                                    An espresso is a strong, concentrated coffee made by forcing hot water through
+                                    finely-ground coffee beans. It has a bold flavor and forms base for many coffee's.
+                                </p>
+                                <h3>Price: ₹300/-</h3>
+                                <button data="Espresso" id="openFormBtn">Order Now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="menu_card">
+
+                            <div class="menu_image">
+                                <img src="./img/americano.jpg">
+                            </div>
+                            <div class="menu_info">
+                                <h2>Americano</h2>
+                                <p>
+                                    An Americano is a coffee drink made by diluting espresso with hot water. It has a
+                                    milder
+                                    flavor than espresso but retains its rich, bold taste.
+                                </p>
+                                <h3>Price: ₹350/-</h3>
+                                <button data="Americano" id="openFormBtn">Order Now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-container" id="popupContainer">
+                <div class="popup">
+                    <img src="./img/coffee_bean.png" alt="Coffee Icon">
+                    <h2>Enter Order Details</h2>
+                    <form id="popupForm">
+                        <input type="text" id="coffeeType" readonly>
+                        <input type="number" id="cups" placeholder="Number of Cups" required>
+                        <input type="number" id="table" placeholder="Table Number" required>
+                        <button type="submit">Submit</button>
+                        <button class="close-btn" id="closeFormBtn">Close</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="orders" class="section">
+            <div class="container1">
+                <div class="orders">
+                    <div class="order_box">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 CoffeeeNM. All rights reserved.</p>
+        <p>Contact us at: coffeeenm@mail.com | +XX XXXXXXXXX</p>
+    </div>
+    <script src='./script/dashboard.js'></script>
+</body>
+
+</html>
