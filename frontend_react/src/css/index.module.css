@@ -1,0 +1,69 @@
+.bodyClass {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #4b3832, #e1d8d4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b3832;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    background: #e1d8d4;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #4b3832;
+}
+
+.highlight {
+    font-family: 'Lucida Handwriting', cursive;
+    color: #6f4e37;
+    font-weight: bold;
+    text-shadow: 1px 1px #f4a460;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #6f4e37;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    background-color: #4b3832;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #675b57;
+    transform: scale(1.05);
+}
+
+.btn:first-of-type {
+    background-color: #675b57;
+}
+
+.btn:first-of-type:hover {
+    background-color: #4b3832;
+}

@@ -1,0 +1,81 @@
+.bodyClass {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4b3832, #e1d8d4);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginContainer {
+  background: #e1d8d4;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.highlight {
+  font-family: "Lucida Handwriting", cursive;
+  color: #6f4e37;
+  font-weight: bold;
+  text-shadow: 1px 1px #f4a460;
+}
+
+.inputField {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #d4c2a8;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #6f4e37;
+  box-shadow: 0 0 4px rgba(111, 78, 55, 0.5);
+}
+
+.submitButton {
+  color: white;
+  background-color: #4b3832;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 25%;
+}
+
+.submitButton:hover {
+  background-color: #8a634b;
+}
+
+.linkButton {
+  background: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #4b3832;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.loginContainer p {
+  margin-top: 15px;
+  color: #6f4e37;
+  font-size: 0.9rem;
+}
